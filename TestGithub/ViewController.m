@@ -25,6 +25,8 @@
     NSLog(@"didRecieve");
     NSLog(@"Warning");
         
+    // Dispose of any resources that can be recreated.
+    NSLog(@"MemoryWarning");
 }
 
 @end
