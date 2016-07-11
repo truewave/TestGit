@@ -16,6 +16,7 @@
 		67690D001D3417DA0070886E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 67690CFE1D3417DA0070886E /* LaunchScreen.storyboard */; };
 		67690D0B1D3417DA0070886E /* TestGithubTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67690D0A1D3417DA0070886E /* TestGithubTests.m */; };
 		67690D161D3417DA0070886E /* TestGithubUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 67690D151D3417DA0070886E /* TestGithubUITests.m */; };
+		67690D251D3419310070886E /* Car.m in Sources */ = {isa = PBXBuildFile; fileRef = 67690D241D3419310070886E /* Car.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		67690D111D3417DA0070886E /* TestGithubUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGithubUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		67690D151D3417DA0070886E /* TestGithubUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGithubUITests.m; sourceTree = "<group>"; };
 		67690D171D3417DA0070886E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		67690D231D3419310070886E /* Car.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Car.h; sourceTree = "<group>"; };
+		67690D241D3419310070886E /* Car.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Car.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +116,8 @@
 				67690D011D3417DA0070886E /* Info.plist */,
 				67690CF91D3417DA0070886E /* TestGithub.xcdatamodeld */,
 				67690CED1D3417DA0070886E /* Supporting Files */,
+				67690D231D3419310070886E /* Car.h */,
+				67690D241D3419310070886E /* Car.m */,
 			);
 			path = TestGithub;
 			sourceTree = "<group>";
@@ -273,6 +278,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				67690D251D3419310070886E /* Car.m in Sources */,
 				67690CF51D3417DA0070886E /* ViewController.m in Sources */,
 				67690CF21D3417DA0070886E /* AppDelegate.m in Sources */,
 				67690CFB1D3417DA0070886E /* TestGithub.xcdatamodeld in Sources */,
