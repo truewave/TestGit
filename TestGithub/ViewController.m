@@ -30,7 +30,7 @@
 }
 
 - (void)fakeMethod2 {
-    NSLog(@"Fake!!!");
+    NSLog(@"Fake2!!!");
 }
 
 @end
