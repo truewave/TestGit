@@ -29,4 +29,8 @@
     NSLog(@"MemoryWarning");
 }
 
+- (void)fakeMethod2 {
+    NSLog(@"Fake!!!");
+}
+
 @end
